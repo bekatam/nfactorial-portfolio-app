@@ -1,0 +1,46 @@
+.experience {
+    padding: 160px 80px;
+    border-bottom: var(--border-bottom)
+}
+
+.job__wrapper {
+    display: flex;
+    align-items: start;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 48px;
+}
+
+.job__item {
+    margin-left: 70px;
+}
+
+.job__item__main {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.job__item__main__role {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.job__item__main__city{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.job__item__main__list {
+    width: 22px;
+    height: 22px;
+    background: #FD5A14;
+    border-radius: 24px;
+    margin-right: 12px;
+}
+
+.job__item__descr {
+    font-weight: 400;
+    font-size: 14px;
+}

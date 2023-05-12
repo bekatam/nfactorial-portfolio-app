@@ -1,0 +1,39 @@
+:root {
+    --border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: #fff;
+}
+
+body {
+    background: #130125;
+    margin: 0;
+}
+
+img {
+    border: 4px solid #FD5A14;
+}
+
+.scroll {
+    transition: all 1s;
+    position: fixed;
+    padding: 5px;
+    top: 80%;
+    right: 20px;
+    background-color: #FD5A14;
+    border-radius: 100px;
+    border: none;
+    opacity: 0;
+}
+
+.scroll_active {
+    opacity: 1;
+}
+
+.navigation {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,45 @@
+.projects {
+    padding: 160px 80px;
+    border-bottom: var(--border-bottom);
+}
+
+.projects__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.project__item {
+    width: 468px;
+    margin-right: 155px;
+}
+
+.projects__wrapper_reversed {
+    flex-direction: row-reverse;
+}
+
+.project__image {
+    height: 388px;
+}
+
+
+.project__name {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.project__descr {
+    font-family: 'Kanit';
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.listItem__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
