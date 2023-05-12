@@ -7,7 +7,7 @@ export default function Contacts() {
             <div className="title">Say Hello</div>
             <div className="title__subtitle">I'm software developer and this is my portfolio.</div>
             <button className="btn">
-                <Link to="https://www.t.me/beqatam" target="_blank" className="contacts__link">Get in Touch</Link>
+                <Link to="https://www.t.me/beqatam" target="_blank" className="btn_link">Get in Touch</Link>
             </button>
         </div>
     )

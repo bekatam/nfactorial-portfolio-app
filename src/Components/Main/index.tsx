@@ -1,6 +1,6 @@
 import './Main.css';
 import '../../Title.css';
-
+import { Link } from 'react-router-dom';
 export default function Main() {
 
   return (
@@ -13,8 +13,7 @@ export default function Main() {
         I'm a software developer, and this is my portfolio.
       </div>
       <button className="btn">
-        <input type='file' id="getFile" style={{display: 'none'}}></input>
-        <label htmlFor="getFile" className='main__upload'>Check out my CV</label>
+        <Link to="https://github.com/bekatam" target="_blank" className="btn_link">Check my CV</Link>
       </button>
     </div>
   );
